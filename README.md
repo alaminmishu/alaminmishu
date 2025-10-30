@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About Me
 
-🚀 Senior Software Engineer at [Walton Hi-Tech Industries PLC](https://waltonplaza.com)  
+🚀 Senior Software Engineer at [Walton Hi-Tech Industries PLC](https://waltonplaza.com.bd)  
 🔧 E-commerce Microservices Enthusiast with 8+ years of experience  
 🧰 Proficient in Laravel, React, Docker, Kubernetes, and DevOps  
 📦 Specialized in building scalable, distributed systems and RESTful APIs  
