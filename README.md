@@ -4,7 +4,7 @@
 
 ## 📑 Quick Links
 
-[About Me](#-about-me) · [What I Bring](#-what-i-bring) · [Tech Stack](#-tech-stack) · [GitHub Stats](#-github-stats) · [Contribution Graph](#-contribution-graph) · [Trophies](#-trophies) · [WakaTime](#-wakatime-stats) · [Dev Card](#-dev-card) · [Connect](#-connect-with-me)
+[About Me](#-about-me) · [What I Bring](#-what-i-bring) · [Tech Stack](#-tech-stack) · [GitHub Metrics](#-github-metrics) · [Contribution Graph](#-contribution-graph) · [Dev Card](#-dev-card) · [Connect](#-connect-with-me)
 
 ---
 
@@ -59,22 +59,29 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Metrics
 
-![Al Amin Mishu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=alaminmishu&show_icons=true&theme=darcula&hide_border=true&count_private=true)
+![Al Amin Mishu's GitHub Metrics](./github-metrics.svg)
+
 ![Al Amin Mishu's GitHub Streak](https://streak-stats.demolab.com?user=alaminmishu&theme=darcula&hide_border=true)
-![Al Amin Mishu's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alaminmishu&layout=compact&theme=darcula&hide_border=true)
 
 <details>
-<summary>⚠️ Badges blank or stuck loading?</summary>
+<summary>⚠️ Why did stats / trophies / WakaTime go blank?</summary>
 
 <br>
 
-`github-readme-stats` and `streak-stats` run on the maintainers' **free, shared** Vercel deployment — used by hundreds of thousands of profiles against one pooled GitHub API rate limit. Under load it returns `500`/rate-limit errors instead of an image, and GitHub's camo proxy caches that broken response, so the badge can stay stuck until the cache expires.
+Checked directly — not a guess:
 
-**Senior-engineer fix — don't depend on someone else's free tier at every pageview:**
-- Self-host the same open-source instance on your own Vercel account with your own `GITHUB_TOKEN` for a private rate limit ([guide](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own)).
-- For anything that must always render, generate it **once** on a schedule via GitHub Actions and commit a static SVG instead of hot-linking a live third-party render — see the contribution snake below, built exactly that way.
+| Widget | Backing service | Result |
+|---|---|---|
+| GitHub Stats card | `github-readme-stats.vercel.app` | `503 DEPLOYMENT_PAUSED` |
+| Top Languages card | `github-readme-stats.vercel.app` | `503 DEPLOYMENT_PAUSED` |
+| WakaTime card | `github-readme-stats.vercel.app` | `503 DEPLOYMENT_PAUSED` |
+| Trophies | `github-profile-trophy.vercel.app` | `402 DEPLOYMENT_DISABLED` |
+
+Those aren't rate-limit blips — the maintainers' own Vercel deployments are paused/disabled (their billing/quota, not GitHub's), so the images 404 forever until they fix it on their end. Waiting doesn't help.
+
+**Fix applied:** stats, top languages, and achievements now render locally via [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml) ([`lowlighter/metrics`](https://github.com/lowlighter/metrics)), committed to this repo as `github-metrics.svg` on a 6-hour schedule — zero dependency on either broken service. The streak card above still points at `streak-stats.demolab.com`, which is healthy (confirmed `200`) and unaffected.
 
 </details>
 
@@ -89,20 +96,6 @@
 </picture>
 
 *Rendered nightly by [`.github/workflows/snake.yml`](.github/workflows/snake.yml) and committed as a static SVG to the `output` branch — no live third-party dependency, no rate limits, no blank badges.*
-
----
-
-### 🏆 Trophies
-
-![Al Amin Mishu's GitHub Trophies](https://github-profile-trophy.vercel.app/?username=alaminmishu&theme=darkhub&no-frame=true&row=1&column=7)
-
----
-
-### ⏱ WakaTime Stats
-
-<!-- Replace this with your WakaTime username -->
-<!-- Example with real WakaTime ID -->
-[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=alaminmishu&theme=darcula&hide_border=true)](https://wakatime.com/@alaminmishu)
 
 ---
 
