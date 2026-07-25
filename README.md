@@ -1,5 +1,13 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif" width="30"/> Hey! I'm Al Amin Mishu</h1>
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2496ED&center=true&vCenter=true&width=600&lines=Senior+Software+Engineer+%40+Walton+Hi-Tech;Laravel+%7C+React+%7C+Docker+%7C+Kubernetes;Building+Scalable+E-commerce+Microservices;Clean+Architecture+%7C+DDD+%7C+TDD+Advocate)](https://git.io/typing-svg)
+
+## 📑 Quick Links
+
+[About Me](#-about-me) · [What I Bring](#-what-i-bring) · [Tech Stack](#-tech-stack) · [GitHub Stats](#-github-stats) · [Contribution Graph](#-contribution-graph) · [Trophies](#-trophies) · [WakaTime](#-wakatime-stats) · [Dev Card](#-dev-card) · [Connect](#-connect-with-me)
+
+---
+
 ## 👨‍💻 About Me
 
 🚀 Senior Software Engineer at [Walton Hi-Tech Industries PLC](https://waltonplaza.com.bd)  
@@ -10,6 +18,15 @@
 🌍 Passionate about system design, performance optimization, and open-source contribution  
 🎯 **Career Mission:** To lead engineering teams that build high-impact, scalable platforms—blending performance, usability, and innovation to drive business growth.
 
+---
+
+### 💡 What I Bring
+
+- 🏗️ **Architecture & Design** — Modular, loosely-coupled microservices with clear domain boundaries (DDD) that scale independently.
+- ✅ **Quality Culture** — Test-driven development, disciplined code review, and CI/CD pipelines that catch problems before production.
+- ⚡ **Performance-Minded** — Profiling, caching (Redis), query tuning, and horizontal scaling for high-traffic e-commerce workloads.
+- 🤝 **Team Enablement** — Documenting decisions, pairing on hard problems, and favoring maintainable code over clever code.
+- 🔭 **Currently Focused On** — Platform reliability, observability, and Kubernetes-native deployment patterns.
 
 ---
 
@@ -98,3 +115,9 @@
 ### 📫 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alaminmishu/)
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=alaminmishu&color=2496ED&style=flat-square&label=Profile+Views" alt="Profile views" />
+</p>
