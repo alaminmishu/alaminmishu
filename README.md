@@ -48,6 +48,37 @@
 ![Al Amin Mishu's GitHub Streak](https://streak-stats.demolab.com?user=alaminmishu&theme=darcula&hide_border=true)
 ![Al Amin Mishu's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alaminmishu&layout=compact&theme=darcula&hide_border=true)
 
+<details>
+<summary>⚠️ Badges blank or stuck loading?</summary>
+
+<br>
+
+`github-readme-stats` and `streak-stats` run on the maintainers' **free, shared** Vercel deployment — used by hundreds of thousands of profiles against one pooled GitHub API rate limit. Under load it returns `500`/rate-limit errors instead of an image, and GitHub's camo proxy caches that broken response, so the badge can stay stuck until the cache expires.
+
+**Senior-engineer fix — don't depend on someone else's free tier at every pageview:**
+- Self-host the same open-source instance on your own Vercel account with your own `GITHUB_TOKEN` for a private rate limit ([guide](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own)).
+- For anything that must always render, generate it **once** on a schedule via GitHub Actions and commit a static SVG instead of hot-linking a live third-party render — see the contribution snake below, built exactly that way.
+
+</details>
+
+---
+
+### 🐍 Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alaminmishu/alaminmishu/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alaminmishu/alaminmishu/output/github-contribution-grid-snake.svg" />
+  <img alt="Al Amin Mishu's GitHub contribution snake" src="https://raw.githubusercontent.com/alaminmishu/alaminmishu/output/github-contribution-grid-snake.svg" />
+</picture>
+
+*Rendered nightly by [`.github/workflows/snake.yml`](.github/workflows/snake.yml) and committed as a static SVG to the `output` branch — no live third-party dependency, no rate limits, no blank badges.*
+
+---
+
+### 🏆 Trophies
+
+![Al Amin Mishu's GitHub Trophies](https://github-profile-trophy.vercel.app/?username=alaminmishu&theme=darkhub&no-frame=true&row=1&column=7)
+
 ---
 
 ### ⏱ WakaTime Stats
