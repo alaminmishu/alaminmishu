@@ -1,0 +1,58 @@
+<svg width="340" height="299" viewBox="0 0 340 299" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Ubuntu, sans-serif">
+  <style>
+    .title { font-size: 16px; font-weight: 600; fill: #c9d1d9; }
+    .lang-name { font-size: 13px; }
+    .lang-pct { font-size: 12px; }
+  </style>
+  <rect x="0.5" y="0.5" width="339" height="298" rx="4.5" fill="#0d1117" stroke="#30363d"/>
+  <text x="25" y="30" class="title">Most Used Languages</text>
+  
+    <g transform="translate(0, 55)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">Blade</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">49.2%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="142.7" height="6" rx="3" fill="#f7523f"/>
+    </g>
+    <g transform="translate(0, 83)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">PHP</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">31.5%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="91.3" height="6" rx="3" fill="#4F5D95"/>
+    </g>
+    <g transform="translate(0, 111)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">JavaScript</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">14.9%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="43.3" height="6" rx="3" fill="#f1e05a"/>
+    </g>
+    <g transform="translate(0, 139)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">Shell</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">2.4%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="7.0" height="6" rx="3" fill="#89e051"/>
+    </g>
+    <g transform="translate(0, 167)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">HTML</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">1.3%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="3.8" height="6" rx="3" fill="#e34c26"/>
+    </g>
+    <g transform="translate(0, 195)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">CSS</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">0.6%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="1.9" height="6" rx="3" fill="#563d7c"/>
+    </g>
+    <g transform="translate(0, 223)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">Python</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">0.0%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="0.0" height="6" rx="3" fill="#3572A5"/>
+    </g>
+    <g transform="translate(0, 251)">
+      <text x="25" y="0" class="lang-name" fill="#c9d1d9">Hack</text>
+      <text x="315" y="0" text-anchor="end" class="lang-pct" fill="#8b949e">0.0%</text>
+      <rect x="25" y="8" width="290" height="6" rx="3" fill="#30363d"/>
+      <rect x="25" y="8" width="0.0" height="6" rx="3" fill="#8b949e"/>
+    </g>
+</svg>
