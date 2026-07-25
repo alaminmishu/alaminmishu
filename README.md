@@ -4,7 +4,7 @@
 
 ## 📑 Quick Links
 
-[About Me](#-about-me) · [What I Bring](#-what-i-bring) · [Tech Stack](#-tech-stack) · [GitHub Metrics](#-github-metrics) · [Contribution Graph](#-contribution-graph) · [Dev Card](#-dev-card) · [Connect](#-connect-with-me)
+[About Me](#-about-me) · [What I Bring](#-what-i-bring) · [Tech Stack](#-tech-stack) · [GitHub Metrics](#-github-metrics) · [Contribution Graph](#-contribution-graph) · [Connect](#-connect-with-me)
 
 ---
 
@@ -81,7 +81,7 @@ Checked directly — not a guess:
 
 Those aren't rate-limit blips — the maintainers' own Vercel deployments are paused/disabled (their billing/quota, not GitHub's), so the images 404 forever until they fix it on their end. Waiting doesn't help.
 
-**Fix applied:** stats, top languages, and achievements now render locally via [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml) ([`lowlighter/metrics`](https://github.com/lowlighter/metrics)), committed to this repo as `github-metrics.svg` on a 6-hour schedule — zero dependency on either broken service. The streak card above still points at `streak-stats.demolab.com`, which is healthy (confirmed `200`) and unaffected.
+**Fix applied:** stats, top languages, and a contribution calendar now render locally via [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml) ([`lowlighter/metrics`](https://github.com/lowlighter/metrics)), committed to this repo as `github-metrics.svg` on a 6-hour schedule — zero dependency on either broken service. The streak card above still points at `streak-stats.demolab.com`, which is healthy (confirmed `200`) and unaffected. Trophies plugin stays dropped — its own GraphQL query hard-fails right now because it depends on GitHub's classic Projects API, which GitHub is sunsetting; not something we can fix from this repo.
 
 </details>
 
@@ -96,12 +96,6 @@ Those aren't rate-limit blips — the maintainers' own Vercel deployments are pa
 </picture>
 
 *Rendered nightly by [`.github/workflows/snake.yml`](.github/workflows/snake.yml) and committed as a static SVG to the `output` branch — no live third-party dependency, no rate limits, no blank badges.*
-
----
-
-### 📰 Dev Card
-
-[![Al Amin Mishu's Dev Card](https://api.daily.dev/devcards/v2/0f21b9dfa6094353a94f06b275ebe94a.png)](https://app.daily.dev/alaminmishu)
 
 ---
 
