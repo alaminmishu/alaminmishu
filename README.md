@@ -66,25 +66,6 @@
 ![Al Amin Mishu's Top Languages](./top-languages.svg)
 ![Al Amin Mishu's GitHub Streak](https://streak-stats.demolab.com?user=alaminmishu&theme=darcula&hide_border=true)
 
-<details>
-<summary>⚠️ Why did stats / trophies / WakaTime / languages go blank?</summary>
-
-<br>
-
-Checked every widget directly, not a guess:
-
-| Widget | Root cause | Fix |
-|---|---|---|
-| GitHub Stats card | `github-readme-stats.vercel.app` → `503 DEPLOYMENT_PAUSED` (maintainer's own Vercel deployment down, not GitHub) | Self-hosted: `github-metrics.svg`, regenerated every 6h |
-| Top Languages card | Same dead deployment as above, *and* the self-hosted `lowlighter/metrics` languages plugin independently returned an empty panel with no error for this account | Replaced with a ~120-line script (`.github/scripts/top_languages.py`) that pulls `GET /repos/{owner}/{repo}/languages` per repo and renders the chart directly — no third-party plugin in the loop |
-| WakaTime card | Same dead deployment, plus was never actually configured — the file still had `<!-- Replace this with your WakaTime username -->` | Removed |
-| Trophies | `github-profile-trophy.vercel.app` → `402 DEPLOYMENT_DISABLED` | Removed |
-| Achievements panel | `lowlighter/metrics`'s own GraphQL query hard-fails with `Projects (classic) is being deprecated` — GitHub is sunsetting that API, upstream bug, not fixable from this repo | Dropped, swapped for a full-year isometric contributions calendar instead |
-
-Nothing here waits on someone else's uptime: [`metrics.yml`](.github/workflows/metrics.yml) and [`snake.yml`](.github/workflows/snake.yml) regenerate everything on a schedule and commit static SVGs straight into this repo. The streak card above is the one exception left pointing outward — confirmed healthy (`200`) at `streak-stats.demolab.com`.
-
-</details>
-
 ---
 
 ### 🐍 Contribution Graph
